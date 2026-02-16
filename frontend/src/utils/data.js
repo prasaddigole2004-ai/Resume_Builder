@@ -1,6 +1,6 @@
 import TEMPLATE_ONE_IMG from "../assets/template-one.png";
-import TEMPLATE_TWO_IMG from "../assets/template-one.png";
-import TEMPLATE_THREE_IMG from "../assets/template-one.png";
+import TEMPLATE_TWO_IMG from "../assets/template-two.png";
+import TEMPLATE_THREE_IMG from "../assets/template-three.png";
 
 export const resumeTemplates = [
   {
@@ -45,97 +45,98 @@ export const DUMMY_RESUME_DATA = {
   profileInfo: {
     profileImg: null,
     profilePreviewUrl: "",
-    fullName: "Aarav Sharma",
-    designation: "Full Stack Software Engineer",
+    fullName: "Prasad Digole",
+    designation: "Data Analyst",
     summary:
-      "Results-driven Full Stack Developer with 5+ years of experience building scalable web applications using the MERN stack and cloud technologies. Passionate about clean architecture, performance optimization, and delivering user-centric solutions.",
+      "Detail-oriented Data Analyst with 4+ years of experience transforming raw data into actionable insights. Skilled in SQL, Python, Power BI, and statistical analysis. Passionate about data storytelling, business intelligence, and driving data-backed decision-making.",
   },
 
   contactInfo: {
-    email: "aarav.sharma.dev@gmail.com",
-    phone: "+91 9876543210",
-    location: "Bangalore, India",
-    linkedin: "https://linkedin.com/in/aarav-sharma",
-    github: "https://github.com/aarav-sharma",
-    website: "https://aaravdev.tech",
+    email: "prasad.digole.analytics@gmail.com",
+    phone: "+91 9123456789",
+    location: "Pune, India",
+    linkedin: "https://linkedin.com/in/prasad-digole",
+    github: "https://github.com/prasad-digole",
+    website: "https://prasadanalytics.tech",
   },
 
   workExperience: [
     {
-      company: "TechNova Solutions",
-      role: "Senior Frontend Engineer",
-      startDate: "2022-04",
-      endDate: "2025-03",
+      company: "Insightify Analytics Pvt Ltd",
+      role: "Senior Data Analyst",
+      startDate: "2022-06",
+      endDate: "2025-02",
       description:
-        "Led a team of 4 developers to build enterprise-grade React applications. Improved performance by 35% through code-splitting and optimization. Integrated REST APIs and implemented scalable state management using Redux Toolkit.",
+        "Led data analysis projects for retail and fintech clients. Built interactive Power BI dashboards improving reporting efficiency by 40%. Automated ETL processes using Python and SQL, reducing manual effort by 30%.",
     },
     {
-      company: "CodeSphere Labs",
-      role: "Full Stack Developer",
-      startDate: "2020-01",
-      endDate: "2022-03",
+      company: "DataBridge Solutions",
+      role: "Junior Data Analyst",
+      startDate: "2020-07",
+      endDate: "2022-05",
       description:
-        "Developed and maintained MERN-based SaaS platforms. Designed RESTful APIs using Node.js and Express. Optimized MongoDB queries to reduce response time by 40%.",
+        "Performed exploratory data analysis and created KPI reports. Wrote complex SQL queries to extract and clean data. Assisted in predictive modeling and improved forecasting accuracy by 20%.",
     },
   ],
 
   education: [
     {
-      degree: "B.Tech in Computer Science and Engineering",
-      institution: "National Institute of Technology, Trichy",
+      degree: "B.Tech in Information Technology",
+      institution: "Savitribai Phule Pune University",
       startDate: "2016",
       endDate: "2020",
     },
   ],
 
   skills: [
-    { name: "JavaScript", progress: 90 },
-    { name: "React.js", progress: 85 },
-    { name: "Node.js", progress: 80 },
-    { name: "MongoDB", progress: 75 },
-    { name: "System Design", progress: 70 },
-    { name: "AWS", progress: 65 },
+    { name: "SQL", progress: 90 },
+    { name: "Python (Pandas, NumPy)", progress: 85 },
+    { name: "Power BI", progress: 88 },
+    { name: "Excel (Advanced)", progress: 92 },
+    { name: "Tableau", progress: 75 },
+    { name: "Statistics & Probability", progress: 80 },
   ],
 
   projects: [
     {
-      title: "E-Commerce Platform",
+      title: "Sales Performance Dashboard",
       description:
-        "Built a full-featured e-commerce web application with payment gateway integration and admin dashboard using MERN stack.",
-      github: "https://github.com/aarav-sharma/ecommerce-platform",
-      liveDemo: "https://shopnow-demo.vercel.app",
+        "Designed an interactive Power BI dashboard to track regional sales KPIs, revenue growth, and customer trends. Helped management identify underperforming regions and increase revenue by 15%.",
+      github: "https://github.com/prasad-digole/sales-dashboard",
+      liveDemo: "https://sales-insights-demo.vercel.app",
     },
     {
-      title: "Real-Time Chat App",
+      title: "Customer Churn Prediction",
       description:
-        "Developed a scalable real-time messaging app using Socket.io and JWT authentication with persistent chat history.",
-      github: "https://github.com/aarav-sharma/chat-app",
-      liveDemo: "https://chatwave-demo.vercel.app",
+        "Built a machine learning model using Python and Scikit-learn to predict customer churn with 85% accuracy. Implemented feature engineering and data preprocessing pipelines.",
+      github: "https://github.com/prasad-digole/churn-prediction",
+      liveDemo: "https://churn-analysis-demo.vercel.app",
     },
   ],
 
   certifications: [
     {
-      title: "AWS Certified Cloud Practitioner",
-      issuer: "Amazon Web Services",
-      year: "2024",
+      title: "Google Data Analytics Professional Certificate",
+      issuer: "Google",
+      year: "2023",
     },
     {
-      title: "MongoDB Developer Certification",
-      issuer: "MongoDB University",
-      year: "2023",
+      title: "Microsoft Power BI Data Analyst Associate",
+      issuer: "Microsoft",
+      year: "2024",
     },
   ],
 
   languages: [
-    { name: "English", progress: 95 },
-    { name: "Hindi", progress: 90 },
+    { name: "English", progress: 90 },
+    { name: "Marathi", progress: 95 },
+    { name: "Hindi", progress: 85 },
   ],
 
   interests: [
-    "System Architecture",
-    "Open Source Contributions",
-    "Formula 1",
-    "Reading Tech Blogs",
+    "Data Visualization",
+    "Business Intelligence",
+    "Stock Market Analysis",
+    "Reading Data Science Blogs",
   ],
 };
